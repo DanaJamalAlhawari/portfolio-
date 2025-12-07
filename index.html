@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dana Alhawari - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- icons nav -->
+    <nav class="navbar">
+        <div class="nav-icons">
+            <a href="#home"title="home"><i class="fas fa-home"></i></a>
+            <a href="#education" title="education"><i class="fas fa-graduation-cap"></i></a>
+            <a href="#experience"title="experience"><i class="fas fa-briefcase"></i></a>  
+            <a href="#projects"title="projects"><i class="fas fa-folder"></i></a>
+            <a href="#skills"title="skills"><i class="fas fa-code"></i></a>
+            <a href="#contact"title="contact"><i class="fas fa-envelope"></i></a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Left Sidebar -->
+        <aside class="sidebar">
+            <div class="profile-img">
+                <img src="./images/Gemini_Generated_Image_8jncey8jncey8jnc.png" alt="Dana Alhawari" class="img" />
+            </div>
+            <h2>Dana Alhawari</h2>
+            <p>Full stack developer</p>
+            <p class="location">Amman, Jordan</p>
+            <br />
+            <div class="social-links">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fas fa-envelope"></i></a>
+            </div>
+
+            <button class="cta-btn" onclick="window.location.href='#contact'">Hire me</button>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Hero Section -->
+            <section id="home" class="hero">
+                <h1>Welcome to <br><span class="highlight">Dana Alhawari</span> Portfolio</h1>
+                <p>A passionate Full Stack Developer with practical experience in 
+                    building scalable and dynamic web applications. 
+                    Possesses strong knowledge in artificial intelligence,
+                     machine learning, data analysis, and data science,
+                      with the ability to integrate intelligent solutions into modern software systems.</p>
+
+                <div class="stats">
+                    <div class="stat-item">
+                        <h3>+12</h3>
+                        <p>Taken courses</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>+10</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>+1</h3>
+                        <p>Years of Experience</p> 
+                    </div>
+                </div>
+
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">connect with me</a>
+                    <a href="#experience" class="btn btn-secondary">My projects <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </section>
+
+            <!-- EDUCATION SECTION -->
+            <section id="education">
+                <h2>Education</h2>
+                <div class="education-grid">
+                    <div class="education-card">
+                        <div class="education-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>Bachelor’s degree in artificial intelligence and data science</h3>
+                        <p class="university">Tafila Technical University</p>
+                        <p class="date">
+                            <i class="far fa-calendar"></i>
+                            2021 - 2025
+                        </p>
+                        <p>Focused on machine learning, data analysis, AI algorithms, and statistical modeling, I gained proficiency in programming 
+languages such as Python, Java, and SQL, along with tools for data processing and AI development.</p>
+                    </div>
+
+                    <div class="education-card">
+                        <div class="education-icon">
+                            <i class="fa-solid fa-laptop-code"></i>
+                        </div>
+                        <h3>Full stack web development </h3>
+                        <p class="university">orange coding academy</p>
+                        <p class="date">
+                            <i class="far fa-calendar"></i>
+                            2025 - 2026
+                        </p>
+                        <p>Focused on full-stack web development, with strong proficiency in front-end technologies such as
+                         HTML, CSS, and JavaScript, as well as back-end technologies including PHP and Laravel.
+                </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- EXPERIENCE SECTION -->
+            <section id="experience">
+                <h2>Experience</h2>
+                <div class="experience-timeline">
+                    <div class="experience-item">
+                        <div class="experience-content">
+                            <div class="experience-header">
+                                <div class="experience-title">
+                                    <h3>Quality Assurance Intern</h3>
+                                    <p class="company">Fact</p>
+                                </div>
+                                <div class="experience-date">july 2024 - august 2024</div>
+                            </div>
+                            <p>Gained practical experience in software testing by executing manual and automated test cases to ensure 
+                               application functionality, usability, and performance.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- PROJECTS SECTION -->
+            <section id="projects">
+                <h2>Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop"
+                                alt="Heart attack prediction">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/DanaJamalAlhawari/heart-attacks-prediction" target="_blank" title="View Code"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="project-tag">Python</span>
+                                <span class="project-tag">Machine learning</span>
+                                <span class="project-tag">Deep learning</span>
+                            </div>
+                            <h3>Heart attack prediction</h3>
+                            <p>Built a machine learning classification model to predict heart attack risk based on medical 
+and lifestyle features. Applied data preprocessing, feature selection, and model evaluation techniques to optimize 
+accuracy and performance.</p>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&h=600&fit=crop"
+                                alt="Image segmentation">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" title="View Code"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="project-tag">Python</span>
+                                <span class="project-tag">Flask</span>
+                                <span class="project-tag">Machine learning</span>
+                            </div>
+                            <h3>Image segmentation</h3>
+                            <p>eveloped an image segmentation application to partition images based on color, intensity, and 
+                            texture, enabling enhanced analysis and object detection Technologies and build a web UI.</p>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800&h=600&fit=crop"
+                                alt="Movie DBMS">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/DanaJamalAlhawari/IMDB-Movie" title="View Code"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="project-tag">Python</span>
+                                <span class="project-tag">TensorFlow</span>
+                                <span class="project-tag">NLP</span>
+                            </div>
+                            <h3>Movie DBMS</h3>
+                            <p>Developed a comprehensive movie database management system by gathering and defining 22 key 
+                            Requirements. Designed Entity-Relationship (ER) and Enhanced Entity-Relationship (EER) diagrams, along with a 
+                            relational diagram, to accurately represent and detail the database schema.</p>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&h=600&fit=crop"
+                                alt="Movie visual visualization">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/DanaJamalAlhawari/search-Engine" title="View Code"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="project-tag">Data visualization</span>
+                                <span class="project-tag">Python</span>
+                            </div>
+                            <h3>Movie visual visualization</h3>
+                            <p>The movie dataset contains detailed information about various films, including attributes 
+                            such as title, director and year of release, runtime, rating, votes, revenue, and a brief description of each movie.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section id="skills">
+                <h2>Skills</h2>
+                <div class="skills-grid">
+
+                    <div class="skill-card">
+                        <i class="fas fa-code"></i>
+                        <h4>Frontend Development</h4>
+                        <p>HTML, CSS, JavaScript</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-brands fa-laravel"></i>
+                        <h4>Backend Development</h4>
+                        <p>php,laravel</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-solid fa-database"></i>
+                        <h4>DataBase</h4>
+                        <p>SQL server,MYSQL,Oracel</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h4>Mobile Design</h4>
+                        <p> Responsive Design</p>
+                    </div>   
+                    <div class="skill-card">
+                         <i class="fa-solid fa-robot"></i>
+                        <h4>Artificial Intelligence</h4>
+                        <p>ML,DL,NLP</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact">
+                <h2>Get In Touch</h2>
+                <div class="contact-form-wrapper">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Your Name</label>
+                                <input type="text" placeholder="Dana Alhawari">
+                            </div>
+                            <div class="form-group">
+                                <label>Your Email</label>
+                                <input type="email" placeholder="dana@example.com">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Subject</label>
+                            <input type="text" placeholder="How can I help you?">
+                        </div>
+                        <div class="form-group">
+                            <label>Message</label>
+                            <textarea placeholder="Write your message here..."></textarea>
+                        </div>
+                        <button class="submit-btn">
+                            Send Message
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+            </section>
+        </main>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
